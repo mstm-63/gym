@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym && Gymming</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+            color: beige;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/834264.jpg');
+            height: 1000px;
+        }
+
+        .left {
+            /* border: 2px solid white; */
+            position: absolute;
+            top: 0px;
+            left: 34px;
+            top: 35px;
+            display: inline-block;
+            border: 2px;
+        }
+
+        .left img {
+            width: 230px;
+            margin-top: -24px;
+        }
+
+        .mid {
+            /* border: 2px solid rgb(223, 147, 147); */
+            display: block;
+            width: 33%;
+            margin: 39px 420px auto;
+            border-radius: 5px;
+        }
+
+        .right {
+            /* border: 2px solid blueviolet; */
+            position: absolute;
+            top: 35px;
+            right: 34px;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: azure;
+            padding: 30px 16px;
+
+        }
+
+        .navbar li a:hover {
+            color: gray;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+        .name {
+
+            color: gold;
+            margin: auto;
+            width: 147px;
+            /* text-align: center; */
+
+            font-size: 18px;
+
+        }
+
+        .btn {
+            background-color: black;
+            color: azure;
+            padding: 6px 12px;
+            font-size: 15px;
+            margin: 8px;
+            border: 1px solid rgb(223, 147, 147);
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: "Sofia", sans-serif;
+        }
+
+        .btn:hover {
+            color: grey;
+            font-size: 19px;
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            padding: 6px 10px;
+            margin: 138px 111px;
+            width: 37%;
+            font-family:"Sofia", sans-serif;
+            font-size: 50px;
+        }
+        .mmid{
+            text-align: center;
+            
+        }
+        .lmid{
+            text-align: center;
+        }
+        .rmid{
+            text-align: center;
+        }
+        .form-group{
+            /* border: 2px solid gold; */
+            text-align: center;
+            font-size: 40px;
+            background-color: black;
+            margin-bottom: -16px;
+           
+        }
+        #sub{
+            width: 75px;
+            margin: auto;
+            display: block;
+            margin-top: 25px;
+        }
+        .aao{
+            margin-top: 19px;
+            margin-left: 10px;
+        }
+        .bt{
+            background-color: black;
+            color: azure;
+            padding: 6px 12px;
+            font-size: 15px;
+            margin: 8px;
+            border: 1px solid rgb(223, 147, 147);
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: "Sofia", sans-serif;
+        }
+        footer{
+            margin-left: 30px;
+            margin-top: 565px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://img.indiefolio.com/1200x630/filters:format(webp):fill(transparent)/project/thumb/1dcd8d839af85d84ce60b9c9f4b16d2d.jpg"
+                alt="remote img">
+            <div class="name">Gym && Gymming</div>
+        </div>
+        <!-- Mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Fitness Calc</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call</button><button class="btn">Email</button>
+            
+
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="lmid">
+        Meet Me At </div><div class="mmid">   =    </div><div class="rmid">Gym && Gymmers</div> 
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Mob Number">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+            <button class="btn" id="sub">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <a href="#"  class="bt" >Tata</a>
+        <a href="#"  class="bt">ByBy</a>
+        <a href="#"  class="bt">Khatam</a>
+        <div class="aao">Aao Kabi Gym && Gymmer Pr :)</div>
+    </footer>
+
+
+
+</body>
+
+</html>
